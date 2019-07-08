@@ -1,0 +1,4 @@
+﻿  源.cpp
+C:\Users\HHR\Desktop\University\CPP\OJ\OJ\源.cpp(15): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\HHR\Desktop\University\CPP\OJ\OJ\源.cpp(19): warning C4018: “<”: 有符号/无符号不匹配
+  OJ.vcxproj -> C:\Users\HHR\Desktop\University\CPP\OJ\Debug\OJ.exe

@@ -1,0 +1,4 @@
+﻿  datePro.cpp
+C:\Users\HHR\Desktop\University\CPP\实验8\Project2\Project2\datePro.cpp(43,20): warning C4018:  “<”: 有符号/无符号不匹配
+C:\Users\HHR\Desktop\University\CPP\实验8\Project2\Project2\datePro.cpp(55,20): warning C4018:  “<”: 有符号/无符号不匹配
+  Project2.vcxproj -> C:\Users\HHR\Desktop\University\CPP\实验8\Project2\Debug\Project2.exe

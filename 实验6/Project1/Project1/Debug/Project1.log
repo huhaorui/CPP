@@ -1,0 +1,25 @@
+﻿  Circle.cpp
+C:\Users\HHR\Desktop\University\CPP\实验6\Project1\Project1\Circle.cpp(13): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  Cylinder.cpp
+C:\Users\HHR\Desktop\University\CPP\实验6\Project1\Project1\Circle.cpp(13): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+C:\Users\HHR\Desktop\University\CPP\实验6\Project1\Project1\Cylinder.cpp(14): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\HHR\Desktop\University\CPP\实验6\Project1\Project1\Cylinder.cpp(15): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+Cylinder.obj : error LNK2005: "public: __thiscall Circle::Circle(float,float,float)" (??0Circle@@QAE@MMM@Z) 已经在 Circle.obj 中定义
+Cylinder.obj : error LNK2005: "public: __thiscall Point::Point(float,float)" (??0Point@@QAE@MM@Z) 已经在 Circle.obj 中定义
+Cylinder.obj : error LNK2005: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class Circle const &)" (??6@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@ABVCircle@@@Z) 已经在 Circle.obj 中定义
+Cylinder.obj : error LNK2005: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class Point const &)" (??6@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@ABVPoint@@@Z) 已经在 Circle.obj 中定义
+Cylinder.obj : error LNK2005: "public: float __thiscall Circle::area(void)const " (?area@Circle@@QBEMXZ) 已经在 Circle.obj 中定义
+Cylinder.obj : error LNK2005: "public: float __thiscall Circle::getRaduis(void)const " (?getRaduis@Circle@@QBEMXZ) 已经在 Circle.obj 中定义
+Cylinder.obj : error LNK2005: "public: void __thiscall Point::setPoint(float,float)" (?setPoint@Point@@QAEXMM@Z) 已经在 Circle.obj 中定义
+Cylinder.obj : error LNK2005: "public: void __thiscall Circle::setRadius(float)" (?setRadius@Circle@@QAEXM@Z) 已经在 Circle.obj 中定义
+main.obj : error LNK2005: "public: __thiscall Cylinder::Cylinder(float,float,float,float)" (??0Cylinder@@QAE@MMMM@Z) 已经在 Cylinder.obj 中定义
+main.obj : error LNK2005: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class Cylinder const &)" (??6@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@ABVCylinder@@@Z) 已经在 Cylinder.obj 中定义
+main.obj : error LNK2005: "public: float __thiscall Cylinder::area(void)const " (?area@Cylinder@@QBEMXZ) 已经在 Cylinder.obj 中定义
+main.obj : error LNK2005: "public: float __thiscall Cylinder::getHeight(void)const " (?getHeight@Cylinder@@QBEMXZ) 已经在 Cylinder.obj 中定义
+main.obj : error LNK2005: "public: void __thiscall Cylinder::setHeight(float)" (?setHeight@Cylinder@@QAEXM@Z) 已经在 Cylinder.obj 中定义
+main.obj : error LNK2005: "public: float __thiscall Cylinder::volume(void)const " (?volume@Cylinder@@QBEMXZ) 已经在 Cylinder.obj 中定义
+Point.obj : error LNK2005: "public: __thiscall Point::Point(float,float)" (??0Point@@QAE@MM@Z) 已经在 Circle.obj 中定义
+Point.obj : error LNK2005: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class Point const &)" (??6@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@ABVPoint@@@Z) 已经在 Circle.obj 中定义
+Point.obj : error LNK2005: "public: void __thiscall Point::setPoint(float,float)" (?setPoint@Point@@QAEXMM@Z) 已经在 Circle.obj 中定义
+C:\Users\HHR\Desktop\University\CPP\实验6\Project1\Debug\Project1.exe : fatal error LNK1169: 找到一个或多个多重定义的符号

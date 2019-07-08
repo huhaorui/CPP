@@ -1,0 +1,80 @@
+﻿  date.cpp
+C:\Users\HHR\Desktop\University\CPP\实验8\Project1\Project1\myExcept.h(13,1): error C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): message :  参见“strcpy”的声明
+C:\Users\HHR\Desktop\University\CPP\实验8\Project1\Project1\myExcept.h(23,1): error C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): message :  参见“strcpy”的声明
+C:\Users\HHR\Desktop\University\CPP\实验8\Project1\Project1\date.cpp(21,5): warning C4806:  “==”: 不安全操作: 从类型“bool”提升到类型“int”的值不能等于给定的常量
+C:\Users\HHR\Desktop\University\CPP\实验8\Project1\Project1\date.cpp(58): error C2259:  “MyFormatError”: 不能实例化抽象类
+C:\Users\HHR\Desktop\University\CPP\实验8\Project1\Project1\date.cpp(58): message :  由于下列成员:
+C:\Users\HHR\Desktop\University\CPP\实验8\Project1\Project1\date.cpp(58): message :  “char *myExcept::getWhat(void)”: 是抽象的
+  DateApp.cpp
+C:\Users\HHR\Desktop\University\CPP\实验8\Project1\Project1\myExcept.h(5): message :  参见“myExcept::getWhat”的声明
+C:\Users\HHR\Desktop\University\CPP\实验8\Project1\Project1\myExcept.h(13,1): error C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): message :  参见“strcpy”的声明
+C:\Users\HHR\Desktop\University\CPP\实验8\Project1\Project1\myExcept.h(23,1): error C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  datePro.cpp
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): message :  参见“strcpy”的声明
+C:\Users\HHR\Desktop\University\CPP\实验8\Project1\Project1\datePro.cpp(44,20): warning C4018:  “<”: 有符号/无符号不匹配
+C:\Users\HHR\Desktop\University\CPP\实验8\Project1\Project1\datePro.cpp(60,20): warning C4018:  “<”: 有符号/无符号不匹配
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\xutility(624,1): error C2672:  “operator __surrogate_func”: 未找到匹配的重载函数
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\xutility(624): message :  查看对正在编译的函数 模板 实例化“bool std::_Debug_lt_pred<_Pr&,NameNum&,NameNum&>(std::less<void>&,_Ty1,_Ty2) noexcept(<expr>)”的引用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\xutility(624): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\xutility(624): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\xutility(624): message :             _Pr=std::less<void>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\xutility(624): message :             _Ty1=NameNum &,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\xutility(624): message :             _Ty2=NameNum &
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\xutility(624): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3456): message :  查看对正在编译的函数 模板 实例化“std::pair<_RanIt,_RanIt> std::_Partition_by_median_guess_unchecked<_RanIt,_Pr>(_RanIt,_RanIt,_Pr)”的引用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3456): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3456): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3456): message :             _RanIt=NameNum *,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3456): message :             _Pr=std::less<void>
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3456): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3482): message :  查看对正在编译的函数 模板 实例化“void std::_Sort_unchecked<NameNum*,_Fn>(_RanIt,_RanIt,int,_Pr)”的引用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3482): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3482): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3482): message :             _Fn=std::less<void>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3482): message :             _RanIt=NameNum *,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3482): message :             _Pr=std::less<void>
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3482): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3487): message :  查看对正在编译的函数 模板 实例化“void std::sort<_RanIt,std::less<void>>(const _RanIt,const _RanIt,_Pr)”的引用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3487): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3487): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3487): message :             _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<NameNum>>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3487): message :             _Pr=std::less<void>
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3487): message :         ]
+C:\Users\HHR\Desktop\University\CPP\实验8\Project1\Project1\datePro.cpp(42): message :  查看对正在编译的函数 模板 实例化“void std::sort<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>(const _RanIt,const _RanIt)”的引用
+C:\Users\HHR\Desktop\University\CPP\实验8\Project1\Project1\datePro.cpp(42): message :         with
+C:\Users\HHR\Desktop\University\CPP\实验8\Project1\Project1\datePro.cpp(42): message :         [
+C:\Users\HHR\Desktop\University\CPP\实验8\Project1\Project1\datePro.cpp(42): message :             _Ty=NameNum,
+C:\Users\HHR\Desktop\University\CPP\实验8\Project1\Project1\datePro.cpp(42): message :             _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<NameNum>>>
+C:\Users\HHR\Desktop\University\CPP\实验8\Project1\Project1\datePro.cpp(42): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\xutility(624,1): error C2893:  未能使函数模板“unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const”专用化
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\xutility(624,1): message :  用下列模板参数:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\xutility(624,1): message :  “_Ty1=NameNum &”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\xutility(624,1): message :  “_Ty2=NameNum &”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\xutility(624,1): error C2056:  非法表达式
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3392,85): error C2672:  “operator __surrogate_func”: 未找到匹配的重载函数
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3392,1): error C2893:  未能使函数模板“unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const”专用化
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3392,1): message :  用下列模板参数:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3392,1): message :  “_Ty1=NameNum &”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3392,1): message :  “_Ty2=NameNum &”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3396,76): error C2672:  “operator __surrogate_func”: 未找到匹配的重载函数
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3396,1): error C2893:  未能使函数模板“unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const”专用化
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3396,1): message :  用下列模板参数:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3396,1): message :  “_Ty1=NameNum &”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3396,1): message :  “_Ty2=NameNum &”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3406,24): error C2672:  “operator __surrogate_func”: 未找到匹配的重载函数
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3406,1): error C2893:  未能使函数模板“unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const”专用化
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3406,1): message :  用下列模板参数:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3406,1): message :  “_Ty1=NameNum &”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3406,1): message :  “_Ty2=NameNum &”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3418,24): error C2672:  “operator __surrogate_func”: 未找到匹配的重载函数
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3418,1): error C2893:  未能使函数模板“unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) noexcept(<expr>) const”专用化
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3418,1): message :  用下列模板参数:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3418,1): message :  “_Ty1=NameNum &”
+  myExcept.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\algorithm(3418,1): message :  “_Ty2=NameNum &”
+C:\Users\HHR\Desktop\University\CPP\实验8\Project1\Project1\myExcept.h(13,3): error C3861:  “strcpy”: 找不到标识符
+  正在生成代码...
+C:\Users\HHR\Desktop\University\CPP\实验8\Project1\Project1\myExcept.h(23,3): error C3861:  “strcpy”: 找不到标识符
