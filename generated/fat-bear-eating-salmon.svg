@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">A chubby bear eating salmon</title>
+  <desc id="desc">A playful illustration of a big, round bear enjoying a salmon in a meadow.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b8ecff" />
+      <stop offset="100%" stop-color="#f1fbff" />
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#81c96b" />
+      <stop offset="100%" stop-color="#5eaa52" />
+    </linearGradient>
+    <linearGradient id="fur" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8b5a34" />
+      <stop offset="100%" stop-color="#5b331a" />
+    </linearGradient>
+    <linearGradient id="belly" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f1c69b" />
+      <stop offset="100%" stop-color="#dbac80" />
+    </linearGradient>
+    <linearGradient id="salmon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff8f73" />
+      <stop offset="100%" stop-color="#ff5f6f" />
+    </linearGradient>
+    <linearGradient id="salmonBelly" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffe4d1" />
+      <stop offset="100%" stop-color="#ffd6ba" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-opacity="0.2" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#sky)" />
+  <circle cx="1000" cy="130" r="62" fill="#fff5b0" opacity="0.95" />
+  <ellipse cx="220" cy="150" rx="120" ry="50" fill="#ffffff" opacity="0.8" />
+  <ellipse cx="345" cy="135" rx="95" ry="40" fill="#ffffff" opacity="0.78" />
+  <ellipse cx="850" cy="170" rx="140" ry="58" fill="#ffffff" opacity="0.82" />
+  <ellipse cx="955" cy="155" rx="112" ry="46" fill="#ffffff" opacity="0.74" />
+
+  <path d="M0 630 C160 585 250 670 380 640 C480 617 620 575 755 625 C905 682 1040 610 1200 646 L1200 900 L0 900 Z" fill="url(#ground)" />
+  <path d="M0 726 C220 690 332 770 522 734 C722 694 875 781 1200 720 L1200 900 L0 900 Z" fill="#4d9442" opacity="0.46" />
+
+  <g opacity="0.85">
+    <path d="M150 646 q20 -36 40 0 q-20 12 -40 0 z" fill="#fee37d" />
+    <path d="M930 680 q22 -42 44 0 q-22 15 -44 0 z" fill="#fee37d" />
+    <path d="M1020 635 q18 -34 36 0 q-18 12 -36 0 z" fill="#fee37d" />
+  </g>
+
+  <g filter="url(#shadow)">
+    <ellipse cx="600" cy="770" rx="250" ry="70" fill="#5d4028" opacity="0.22" />
+
+    <ellipse cx="600" cy="490" rx="248" ry="228" fill="url(#fur)" />
+    <ellipse cx="600" cy="540" rx="148" ry="155" fill="url(#belly)" />
+
+    <circle cx="455" cy="676" r="72" fill="url(#fur)" />
+    <circle cx="742" cy="676" r="72" fill="url(#fur)" />
+    <ellipse cx="448" cy="710" rx="56" ry="34" fill="#4b2818" />
+    <ellipse cx="748" cy="710" rx="56" ry="34" fill="#4b2818" />
+
+    <circle cx="438" cy="310" r="58" fill="url(#fur)" />
+    <circle cx="760" cy="310" r="58" fill="url(#fur)" />
+    <circle cx="438" cy="310" r="28" fill="#dca77d" />
+    <circle cx="760" cy="310" r="28" fill="#dca77d" />
+
+    <circle cx="600" cy="345" r="176" fill="url(#fur)" />
+    <ellipse cx="600" cy="395" rx="114" ry="92" fill="#efc8a2" />
+    <ellipse cx="600" cy="355" rx="38" ry="28" fill="#4a2818" />
+    <path d="M564 395 q36 30 72 0" fill="none" stroke="#4a2818" stroke-width="8" stroke-linecap="round" />
+
+    <ellipse cx="540" cy="332" rx="18" ry="24" fill="#22150e" />
+    <ellipse cx="664" cy="332" rx="18" ry="24" fill="#22150e" />
+    <circle cx="535" cy="324" r="5" fill="#ffffff" opacity="0.85" />
+    <circle cx="659" cy="324" r="5" fill="#ffffff" opacity="0.85" />
+
+    <path d="M521 284 q37 -35 82 -16" fill="none" stroke="#5b331a" stroke-width="10" stroke-linecap="round" opacity="0.78" />
+    <path d="M630 269 q40 -16 81 15" fill="none" stroke="#5b331a" stroke-width="10" stroke-linecap="round" opacity="0.78" />
+
+    <g transform="rotate(-9 602 485)">
+      <ellipse cx="470" cy="510" rx="72" ry="54" fill="url(#fur)" />
+      <ellipse cx="730" cy="512" rx="72" ry="54" fill="url(#fur)" />
+      <ellipse cx="471" cy="533" rx="30" ry="18" fill="#4b2818" opacity="0.9" />
+      <ellipse cx="730" cy="535" rx="30" ry="18" fill="#4b2818" opacity="0.9" />
+
+      <g transform="translate(0 8)">
+        <path d="M453 492 C497 440 598 429 718 452 C789 465 820 510 744 542 C657 579 514 574 445 543 C413 528 420 512 453 492 Z" fill="url(#salmon)" />
+        <path d="M480 510 C534 484 640 477 717 489 C750 494 763 509 749 519 C707 549 530 551 475 526 C461 519 463 516 480 510 Z" fill="url(#salmonBelly)" opacity="0.96" />
+        <path d="M734 452 q78 28 84 78 q-5 57 -83 74 q27 -41 27 -76 q0 -38 -28 -76 z" fill="#ff7a7b" />
+        <path d="M445 500 q-34 16 -41 48 q8 37 42 49 q-14 -24 -14 -50 q0 -24 13 -47 z" fill="#ff7a7b" />
+        <path d="M520 485 q44 22 70 68" fill="none" stroke="#ffb09c" stroke-width="8" stroke-linecap="round" opacity="0.62" />
+        <path d="M602 480 q43 20 69 65" fill="none" stroke="#ffb09c" stroke-width="8" stroke-linecap="round" opacity="0.62" />
+        <path d="M683 486 q31 17 50 53" fill="none" stroke="#ffb09c" stroke-width="7" stroke-linecap="round" opacity="0.62" />
+      </g>
+    </g>
+
+    <path d="M614 406 q29 24 60 24" fill="none" stroke="#4a2818" stroke-width="7" stroke-linecap="round" />
+    <path d="M612 412 q14 24 6 53" fill="none" stroke="#4a2818" stroke-width="7" stroke-linecap="round" />
+    <circle cx="626" cy="420" r="7" fill="#ffb6c0" opacity="0.8" />
+  </g>
+
+  <g opacity="0.6">
+    <path d="M278 764 q33 -74 67 0" fill="none" stroke="#4f9442" stroke-width="10" stroke-linecap="round" />
+    <path d="M325 752 q30 -85 60 0" fill="none" stroke="#4f9442" stroke-width="8" stroke-linecap="round" />
+    <path d="M886 774 q33 -74 67 0" fill="none" stroke="#4f9442" stroke-width="10" stroke-linecap="round" />
+    <path d="M940 760 q30 -83 59 0" fill="none" stroke="#4f9442" stroke-width="8" stroke-linecap="round" />
+  </g>
+</svg>
